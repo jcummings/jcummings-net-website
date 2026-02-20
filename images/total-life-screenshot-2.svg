@@ -1,0 +1,28 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="20" y="50" width="260" height="40" rx="20" fill="#11998e"/>
+  <text x="150" y="75" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Habit Tracking</text>
+  <rect x="30" y="120" width="240" height="300" rx="10" fill="white" stroke="#e9ecef"/>
+  <text x="150" y="140" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Daily Habits</text>
+  <rect x="45" y="160" width="150" height="25" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="50" y="178" font-family="Arial" font-size="12">Morning Exercise</text>
+  <circle cx="240" cy="172" r="8" fill="#28a745"/>
+  <text x="240" y="177" font-family="Arial" font-size="12" fill="white" text-anchor="middle">✓</text>
+  <rect x="45" y="200" width="150" height="25" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="50" y="218" font-family="Arial" font-size="12">Read 30 minutes</text>
+  <circle cx="240" cy="212" r="8" fill="#28a745"/>
+  <text x="240" y="217" font-family="Arial" font-size="12" fill="white" text-anchor="middle">✓</text>
+  <rect x="45" y="240" width="150" height="25" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="50" y="258" font-family="Arial" font-size="12">Drink 8 glasses</text>
+  <circle cx="240" cy="252" r="8" fill="#ffc107"/>
+  <text x="240" y="257" font-family="Arial" font-size="10" text-anchor="middle">6/8</text>
+  <rect x="45" y="280" width="150" height="25" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="50" y="298" font-family="Arial" font-size="12">Meditation</text>
+  <circle cx="240" cy="292" r="8" fill="#e74c3c"/>
+  <text x="240" y="297" font-family="Arial" font-size="12" fill="white" text-anchor="middle">✗</text>
+  <rect x="45" y="320" width="210" height="80" rx="10" fill="#e8f5e8" stroke="#c3e6cb"/>
+  <text x="150" y="340" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Streak Information</text>
+  <text x="150" y="360" font-family="Arial" font-size="14" font-weight="bold" fill="#28a745" text-anchor="middle">Current: 7 days</text>
+  <text x="150" y="380" font-family="Arial" font-size="12" text-anchor="middle">Best: 23 days</text>
+  <text x="150" y="395" font-family="Arial" font-size="10" text-anchor="middle">Keep it up!</text>
+</svg>

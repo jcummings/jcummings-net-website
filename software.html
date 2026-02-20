@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Projects - John Cummings</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">John Cummings</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Software
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="software.html">All Projects</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="apps/kindness-project.html">The Kindness Project</a></li>
+                            <li><a class="dropdown-item" href="apps/freshlook-ai.html">FreshLook AI</a></li>
+                            <li><a class="dropdown-item" href="apps/total-life-tracker.html">Total Life Tracker</a></li>
+                            <li><a class="dropdown-item" href="apps/copilot-launchpad-pro.html">Copilot Launchpad Pro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient text-white py-5 mt-4">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold mb-3">My Software Portfolio</h1>
+                    <p class="lead">Discover the iOS applications I've created to solve real-world problems and enhance daily life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="display-4 fw-bold text-primary mb-2">4</div>
+                    <h5>Published Apps</h5>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="display-4 fw-bold text-primary mb-2">10K+</div>
+                    <h5>Total Downloads</h5>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="display-4 fw-bold text-primary mb-2">4.8</div>
+                    <h5>Average Rating</h5>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="display-4 fw-bold text-primary mb-2">3+</div>
+                    <h5>Years Experience</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Portfolio -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">My Applications</h2>
+            
+            <!-- The Kindness Project -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <img src="images/kindness-project-icon.svg" alt="The Kindness Project" class="app-icon-large">
+                </div>
+                <div class="col-lg-8">
+                    <h3 class="mb-3">The Kindness Project</h3>
+                    <p class="lead text-muted mb-3">Spread positivity and make a difference in the world</p>
+                    <p>A social impact app designed to encourage and track acts of kindness. Users can log their kind deeds, participate in community challenges, and see the collective positive impact being made worldwide. Features include daily kindness prompts, impact tracking, and community sharing.</p>
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">SwiftUI</span>
+                        <span class="badge bg-primary me-2">Core Data</span>
+                        <span class="badge bg-primary me-2">CloudKit</span>
+                        <span class="badge bg-primary me-2">Social Features</span>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <a href="apps/kindness-project.html" class="btn btn-primary">View Details</a>
+                        <a href="https://apps.apple.com" class="btn btn-outline-primary" target="_blank">
+                            <i class="bi bi-apple"></i> App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5">
+
+            <!-- FreshLook AI -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0 order-lg-2">
+                    <img src="images/freshlook-ai-icon.svg" alt="FreshLook AI" class="app-icon-large">
+                </div>
+                <div class="col-lg-8 order-lg-1">
+                    <h3 class="mb-3">FreshLook AI</h3>
+                    <p class="lead text-muted mb-3">AI-powered photo enhancement and creative editing</p>
+                    <p>Transform your photos with cutting-edge AI technology. FreshLook AI offers intelligent photo enhancement, style transfer, background removal, and creative filters. Built with Core ML and Vision framework for on-device processing, ensuring privacy while delivering professional-quality results.</p>
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">Core ML</span>
+                        <span class="badge bg-primary me-2">Vision</span>
+                        <span class="badge bg-primary me-2">AI/ML</span>
+                        <span class="badge bg-primary me-2">Photo Editing</span>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <a href="apps/freshlook-ai.html" class="btn btn-primary">View Details</a>
+                        <a href="https://apps.apple.com" class="btn btn-outline-primary" target="_blank">
+                            <i class="bi bi-apple"></i> App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5">
+
+            <!-- Total Life Tracker -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <img src="images/total-life-tracker-icon.svg" alt="Total Life Tracker" class="app-icon-large">
+                </div>
+                <div class="col-lg-8">
+                    <h3 class="mb-3">Total Life Tracker</h3>
+                    <p class="lead text-muted mb-3">Comprehensive personal analytics and life optimization</p>
+                    <p>A holistic approach to personal development and life tracking. Monitor everything from health metrics and habits to goals and achievements. Features advanced analytics, customizable dashboards, and insights to help users understand patterns and optimize their lives for better outcomes.</p>
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">HealthKit</span>
+                        <span class="badge bg-primary me-2">Charts</span>
+                        <span class="badge bg-primary me-2">Analytics</span>
+                        <span class="badge bg-primary me-2">Widgets</span>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <a href="apps/total-life-tracker.html" class="btn btn-primary">View Details</a>
+                        <a href="https://apps.apple.com" class="btn btn-outline-primary" target="_blank">
+                            <i class="bi bi-apple"></i> App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5">
+
+            <!-- Copilot Launchpad Pro -->
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0 order-lg-2">
+                    <img src="images/copilot-launchpad-pro-icon.svg" alt="Copilot Launchpad Pro" class="app-icon-large">
+                </div>
+                <div class="col-lg-8 order-lg-1">
+                    <h3 class="mb-3">Copilot Launchpad Pro</h3>
+                    <p class="lead text-muted mb-3">Advanced productivity and workflow automation</p>
+                    <p>A powerful productivity suite designed for professionals who need advanced workflow automation and intelligent assistance. Features AI-powered task management, automated workflows, integration with popular services, and smart scheduling to maximize productivity and reduce manual work.</p>
+                    <div class="mb-3">
+                        <span class="badge bg-primary me-2">Shortcuts</span>
+                        <span class="badge bg-primary me-2">Automation</span>
+                        <span class="badge bg-primary me-2">Productivity</span>
+                        <span class="badge bg-primary me-2">Integrations</span>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <a href="apps/copilot-launchpad-pro.html" class="btn btn-primary">View Details</a>
+                        <a href="https://apps.apple.com" class="btn btn-outline-primary" target="_blank">
+                            <i class="bi bi-apple"></i> App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Process -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="text-center mb-5">My Development Approach</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4 text-center">
+                            <div class="feature-icon mx-auto mb-3">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+                            <h4>Ideation & Research</h4>
+                            <p>Every app starts with identifying a real problem and researching user needs to create meaningful solutions.</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="feature-icon mx-auto mb-3">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <h4>Design & Prototype</h4>
+                            <p>Focus on user experience with wireframes, prototypes, and following Apple's Human Interface Guidelines.</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="feature-icon mx-auto mb-3">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h4>Development & Testing</h4>
+                            <p>Build with modern Swift, SwiftUI, and comprehensive testing to ensure quality and performance.</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="feature-icon mx-auto mb-3">
+                                <i class="bi bi-rocket"></i>
+                            </div>
+                            <h4>Launch & Marketing</h4>
+                            <p>Strategic App Store optimization and marketing to reach the right audience effectively.</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="feature-icon mx-auto mb-3">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <h4>Analytics & Feedback</h4>
+                            <p>Continuous monitoring of user feedback and analytics to improve and evolve the applications.</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="feature-icon mx-auto mb-3">
+                                <i class="bi bi-arrow-repeat"></i>
+                            </div>
+                            <h4>Iterate & Improve</h4>
+                            <p>Regular updates with new features, improvements, and bug fixes based on user needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-gradient text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Have an App Idea?</h2>
+                    <p class="lead mb-4">I'd love to help bring your vision to life. Let's discuss how we can create something amazing together.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="contact.html" class="btn btn-light btn-lg">Start a Project</a>
+                        <a href="about.html" class="btn btn-outline-light btn-lg">Learn More About Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2026 John Cummings. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="contact.html" class="text-white me-3">Contact</a>
+                    <a href="privacy/general-privacy.html" class="text-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

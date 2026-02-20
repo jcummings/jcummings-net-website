@@ -1,0 +1,29 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="20" y="50" width="260" height="40" rx="20" fill="#00d2ff"/>
+  <text x="150" y="75" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Export & Share</text>
+  <rect x="30" y="120" width="240" height="400" rx="10" fill="white" stroke="#e9ecef"/>
+  <text x="150" y="140" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Export Options</text>
+  <rect x="45" y="160" width="210" height="100" rx="8" fill="#f0f8ff" stroke="#b8daff"/>
+  <text x="150" y="180" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Quality Settings</text>
+  <rect x="60" y="195" width="180" height="8" rx="4" fill="#e9ecef"/>
+  <rect x="60" y="195" width="144" height="8" rx="4" fill="#3a7bd5"/>
+  <circle cx="204" cy="199" r="6" fill="#3a7bd5"/>
+  <text x="60" y="220" font-family="Arial" font-size="10">High Quality (80%)</text>
+  <text x="60" y="235" font-family="Arial" font-size="10">File size: ~2.4 MB</text>
+  <text x="60" y="250" font-family="Arial" font-size="10">Resolution: 4K</text>
+  <text x="150" y="290" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Share Directly</text>
+  <rect x="60" y="310" width="50" height="50" rx="8" fill="#1877f2"/>
+  <text x="85" y="340" font-family="Arial" font-size="20" fill="white" text-anchor="middle">f</text>
+  <rect x="125" y="310" width="50" height="50" rx="8" fill="#1da1f2"/>
+  <text x="150" y="345" font-family="Arial" font-size="18" fill="white" text-anchor="middle">🐦</text>
+  <rect x="190" y="310" width="50" height="50" rx="8" fill="#e4405f"/>
+  <text x="215" y="345" font-family="Arial" font-size="18" fill="white" text-anchor="middle">📷</text>
+  <text x="150" y="380" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Or Save To:</text>
+  <rect x="60" y="395" width="180" height="30" rx="15" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="150" y="413" font-family="Arial" font-size="11" text-anchor="middle">📱 Photo Library</text>
+  <rect x="60" y="435" width="180" height="30" rx="15" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="150" y="453" font-family="Arial" font-size="11" text-anchor="middle">☁️ Cloud Storage</text>
+  <rect x="80" y="485" width="140" height="35" rx="17" fill="#28a745"/>
+  <text x="150" y="505" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Export Photo</text>
+</svg>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshLook AI Support - John Cummings</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../index.html">John Cummings</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Software
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../software.html">All Projects</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../apps/kindness-project.html">The Kindness Project</a></li>
+                            <li><a class="dropdown-item" href="../apps/freshlook-ai.html">FreshLook AI</a></li>
+                            <li><a class="dropdown-item" href="../apps/total-life-tracker.html">Total Life Tracker</a></li>
+                            <li><a class="dropdown-item" href="../apps/copilot-launchpad-pro.html">Copilot Launchpad Pro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient text-white py-5 mt-4">
+        <div class="container">
+            <div class="row align-items-center py-4">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <img src="../images/freshlook-ai-icon.svg" alt="FreshLook AI" class="me-3" style="width: 60px; height: 60px; border-radius: 12px;">
+                        <h1 class="display-5 fw-bold mb-0">FreshLook AI Support</h1>
+                    </div>
+                    <p class="lead">Get help with FreshLook AI features and troubleshooting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-apple display-6 text-primary mb-3"></i>
+                            <h5>Download App</h5>
+                            <p class="text-muted">Get the latest version from the App Store</p>
+                            <a href="https://apps.apple.com" class="btn btn-primary" target="_blank">App Store</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-question-circle display-6 text-primary mb-3"></i>
+                            <h5>FAQ</h5>
+                            <p class="text-muted">Find answers to common questions</p>
+                            <a href="#faq" class="btn btn-outline-primary">View FAQ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-envelope display-6 text-primary mb-3"></i>
+                            <h5>Contact Support</h5>
+                            <p class="text-muted">Get personalized help</p>
+                            <a href="../contact.html" class="btn btn-outline-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-shield-check display-6 text-primary mb-3"></i>
+                            <h5>Privacy Policy</h5>
+                            <p class="text-muted">Learn about data protection</p>
+                            <a href="../privacy/freshlook-ai-privacy.html" class="btn btn-outline-primary">View Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5 bg-light" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+                    
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Why is AI processing slow on my device?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>AI processing speed depends on several factors:</p>
+                                    <ul>
+                                        <li><strong>Device Model:</strong> Newer iPhones with Neural Engine (iPhone X and later) process AI much faster</li>
+                                        <li><strong>Image Size:</strong> Larger images take more time to process</li>
+                                        <li><strong>Available Memory:</strong> Close other apps to free up RAM</li>
+                                        <li><strong>Battery Level:</strong> iOS may throttle performance when battery is low</li>
+                                    </ul>
+                                    <p>For best performance, use the app on iPhone 12 or newer with at least 50% battery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Are my photos sent to any servers for processing?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p><strong>No, absolutely not!</strong> FreshLook AI processes everything on your device using Apple's Core ML framework. This means:</p>
+                                    <ul>
+                                        <li>Your photos never leave your iPhone</li>
+                                        <li>No internet connection required for AI processing</li>
+                                        <li>Complete privacy and security</li>
+                                        <li>Fast processing without upload/download delays</li>
+                                    </ul>
+                                    <p>We designed the app this way specifically to protect your privacy while delivering professional results.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    How do I get the best results from AI enhancement?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>For optimal AI enhancement results:</p>
+                                    <ul>
+                                        <li><strong>Choose the right model:</strong> Use Portrait mode for people, Landscape for scenic photos</li>
+                                        <li><strong>Start with good lighting:</strong> AI works better with well-lit photos</li>
+                                        <li><strong>Use high resolution:</strong> Process original quality images when possible</li>
+                                        <li><strong>Adjust intensity:</strong> Use the sliders to fine-tune AI effects</li>
+                                        <li><strong>Try before/after:</strong> Toggle to see the difference and adjust accordingly</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Can I undo changes after saving?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Yes! FreshLook AI includes several options for undoing changes:</p>
+                                    <ul>
+                                        <li><strong>Before saving:</strong> Use the undo button or reset to revert all changes</li>
+                                        <li><strong>Non-destructive editing:</strong> Your original photo is always preserved</li>
+                                        <li><strong>Edit history:</strong> Review and revert to previous edit states</li>
+                                        <li><strong>Save as copy:</strong> Always saves enhanced version as a new photo</li>
+                                    </ul>
+                                    <p>Your original photos are never modified, giving you complete creative freedom.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    What file formats are supported?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>FreshLook AI supports all standard iOS photo formats:</p>
+                                    <ul>
+                                        <li><strong>Input formats:</strong> HEIF, JPEG, PNG, RAW (on supported devices)</li>
+                                        <li><strong>Output formats:</strong> HEIF (default), JPEG, PNG</li>
+                                        <li><strong>Special formats:</strong> Live Photos (processed as still images)</li>
+                                        <li><strong>Quality options:</strong> Choose from multiple quality levels for export</li>
+                                    </ul>
+                                    <p>The app automatically handles format conversion while preserving maximum quality.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2 class="mb-4">Need Technical Support?</h2>
+                    <p class="lead mb-4">Having trouble with AI processing or need help with advanced features?</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="../contact.html" class="btn btn-primary btn-lg">
+                            <i class="bi bi-envelope me-2"></i>Contact Support
+                        </a>
+                        <a href="../apps/freshlook-ai.html" class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-arrow-left me-2"></i>Back to App
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2026 John Cummings. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="../apps/freshlook-ai.html" class="text-white me-3">Back to App</a>
+                    <a href="../privacy/freshlook-ai-privacy.html" class="text-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

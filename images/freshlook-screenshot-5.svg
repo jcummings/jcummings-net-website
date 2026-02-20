@@ -1,0 +1,28 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="20" y="50" width="260" height="40" rx="20" fill="#00d2ff"/>
+  <text x="150" y="75" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Batch Processing</text>
+  <rect x="30" y="120" width="240" height="400" rx="10" fill="white" stroke="#e9ecef"/>
+  <text x="150" y="140" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Process Multiple Photos</text>
+  <rect x="45" y="160" width="60" height="80" rx="8" fill="#e9ecef" stroke="#ddd"/>
+  <text x="75" y="205" font-family="Arial" font-size="8" text-anchor="middle">Photo 1</text>
+  <rect x="120" y="160" width="60" height="80" rx="8" fill="#e9ecef" stroke="#ddd"/>
+  <text x="150" y="205" font-family="Arial" font-size="8" text-anchor="middle">Photo 2</text>
+  <rect x="195" y="160" width="60" height="80" rx="8" fill="#e9ecef" stroke="#ddd"/>
+  <text x="225" y="205" font-family="Arial" font-size="8" text-anchor="middle">Photo 3</text>
+  <rect x="45" y="260" width="60" height="80" rx="8" fill="#e9ecef" stroke="#ddd"/>
+  <text x="75" y="305" font-family="Arial" font-size="8" text-anchor="middle">Photo 4</text>
+  <rect x="120" y="260" width="60" height="80" rx="8" fill="#e9ecef" stroke="#ddd"/>
+  <text x="150" y="305" font-family="Arial" font-size="8" text-anchor="middle">Photo 5</text>
+  <rect x="195" y="260" width="60" height="80" rx="8" fill="#e9ecef" stroke="#ddd"/>
+  <text x="225" y="305" font-family="Arial" font-size="8" text-anchor="middle">Photo 6</text>
+  <text x="150" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Enhancement Options:</text>
+  <rect x="45" y="385" width="210" height="25" rx="12" fill="#f0f8ff" stroke="#b8daff"/>
+  <text x="60" y="402" font-family="Arial" font-size="11">✓ Auto Color Correction</text>
+  <rect x="45" y="420" width="210" height="25" rx="12" fill="#f0f8ff" stroke="#b8daff"/>
+  <text x="60" y="437" font-family="Arial" font-size="11">✓ Noise Reduction</text>
+  <rect x="45" y="455" width="210" height="25" rx="12" fill="#fff" stroke="#ddd"/>
+  <text x="60" y="472" font-family="Arial" font-size="11">☐ Background Removal</text>
+  <rect x="60" y="495" width="180" height="35" rx="17" fill="#00b894"/>
+  <text x="150" y="515" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Process All (6)</text>
+</svg>

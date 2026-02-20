@@ -1,0 +1,12 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kindnessGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ee5a24;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#kindnessGradient)"/>
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Kindness</text>
+  <text x="60" y="60" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Project</text>
+  <circle cx="60" cy="80" r="8" fill="white" opacity="0.8"/>
+</svg>

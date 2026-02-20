@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Life Tracker - iOS App by John Cummings</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../index.html">John Cummings</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Software
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../software.html">All Projects</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="kindness-project.html">The Kindness Project</a></li>
+                            <li><a class="dropdown-item" href="freshlook-ai.html">FreshLook AI</a></li>
+                            <li><a class="dropdown-item active" href="total-life-tracker.html">Total Life Tracker</a></li>
+                            <li><a class="dropdown-item" href="copilot-launchpad-pro.html">Copilot Launchpad Pro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- App Hero Section -->
+    <section class="app-hero text-white py-5 mt-4">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="../images/total-life-tracker-icon.svg" alt="Total Life Tracker" class="app-icon-large me-4">
+                        <div>
+                            <h1 class="display-4 fw-bold mb-2">Total Life Tracker</h1>
+                            <p class="lead mb-0">Your complete personal analytics dashboard</p>
+                        </div>
+                    </div>
+                    <p class="mb-4">Understand yourself better through comprehensive life tracking. Monitor health, habits, goals, mood, and achievements with beautiful analytics and actionable insights to optimize your daily life.</p>
+                    <div class="d-flex gap-3 mb-4">
+                        <a href="https://apps.apple.com" class="btn btn-light btn-lg" target="_blank">
+                            <i class="bi bi-apple me-2"></i>Download on App Store
+                        </a>
+                        <a href="../support/total-life-tracker-support.html" class="btn btn-outline-light">Support</a>
+                        <a href="../privacy/total-life-tracker-privacy.html" class="btn btn-outline-light">Privacy Policy</a>
+                    </div>
+                    <div class="d-flex gap-4 text-center">
+                        <div>
+                            <div class="h4 fw-bold">4.8★</div>
+                            <small>App Store Rating</small>
+                        </div>
+                        <div>
+                            <div class="h4 fw-bold">50+</div>
+                            <small>Tracking Categories</small>
+                        </div>
+                        <div>
+                            <div class="h4 fw-bold">12K+</div>
+                            <small>Active Users</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="../images/total-life-tracker-hero.svg" alt="Total Life Tracker Screenshots" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Everything You Need to Track</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+                    <h4>Health & Fitness</h4>
+                    <p>Integrate with HealthKit to track steps, workouts, sleep, heart rate, and more. Visualize your health trends over time.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-check-circle"></i>
+                    </div>
+                    <h4>Habit Tracking</h4>
+                    <p>Build positive habits with customizable trackers, streak counters, and habit analytics to understand your behavior patterns.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-trophy"></i>
+                    </div>
+                    <h4>Goal Management</h4>
+                    <p>Set SMART goals, track progress with milestones, and celebrate achievements with visual progress indicators.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                    <h4>Mood & Emotions</h4>
+                    <p>Track daily mood, emotions, and life satisfaction with customizable scales and correlation analysis.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-graph-up"></i>
+                    </div>
+                    <h4>Advanced Analytics</h4>
+                    <p>Beautiful charts, correlations, and insights help you understand patterns and make data-driven life decisions.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-widget"></i>
+                    </div>
+                    <h4>Widgets & Shortcuts</h4>
+                    <p>Quick access with iOS widgets and Shortcuts integration for fast data entry and monitoring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tracking Categories -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Comprehensive Tracking Categories</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-heart text-primary me-2"></i>Health & Wellness</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Weight & Body Composition</li>
+                                <li>• Sleep Quality & Duration</li>
+                                <li>• Exercise & Activity</li>
+                                <li>• Nutrition & Hydration</li>
+                                <li>• Symptoms & Medications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-brain text-primary me-2"></i>Mental & Emotional</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Daily Mood & Energy</li>
+                                <li>• Stress Levels</li>
+                                <li>• Meditation & Mindfulness</li>
+                                <li>• Gratitude & Journaling</li>
+                                <li>• Social Interactions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-briefcase text-primary me-2"></i>Productivity & Goals</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Work Hours & Focus Time</li>
+                                <li>• Project Progress</li>
+                                <li>• Learning & Skills</li>
+                                <li>• Reading & Education</li>
+                                <li>• Personal Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-house text-primary me-2"></i>Lifestyle & Habits</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Daily Routines</li>
+                                <li>• Screen Time & Digital Wellness</li>
+                                <li>• Hobbies & Creative Time</li>
+                                <li>• Time Outdoors</li>
+                                <li>• Environmental Factors</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-piggy-bank text-primary me-2"></i>Financial & Resources</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Spending & Budgets</li>
+                                <li>• Income & Savings</li>
+                                <li>• Investments & Assets</li>
+                                <li>• Financial Goals</li>
+                                <li>• Resource Usage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-calendar text-primary me-2"></i>Custom Categories</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Fully Customizable Fields</li>
+                                <li>• Multiple Data Types</li>
+                                <li>• Personal Metrics</li>
+                                <li>• Unique Life Aspects</li>
+                                <li>• Unlimited Flexibility</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analytics Dashboard -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Powerful Analytics & Insights</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <h3>Discover Hidden Patterns</h3>
+                    <p>Advanced correlation analysis helps you understand connections between different aspects of your life. Discover how your sleep affects your mood, how exercise impacts your productivity, or which habits contribute most to your happiness.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Correlation Analysis</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Trend Identification</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Goal Progress Visualization</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Predictive Insights</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Weekly & Monthly Reports</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="../images/total-life-analytics.svg" alt="Analytics Dashboard" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Carousel -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">App Screenshots</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="totalLifeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#totalLifeCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#totalLifeCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#totalLifeCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#totalLifeCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#totalLifeCarousel" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#totalLifeCarousel" data-bs-slide-to="5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-center">
+                                    <img src="../images/total-life-screenshot-1.svg" alt="Dashboard Overview" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Main Dashboard</h5>
+                                    <p class="text-muted">Complete overview of your life metrics and progress</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/total-life-screenshot-2.svg" alt="Habit Tracking" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Habit Tracking</h5>
+                                    <p class="text-muted">Track daily habits and build lasting routines</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/total-life-screenshot-3.svg" alt="Analytics Charts" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Analytics & Charts</h5>
+                                    <p class="text-muted">Visualize your progress with detailed analytics</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/total-life-screenshot-4.svg" alt="Goal Progress" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Goal Progress</h5>
+                                    <p class="text-muted">Set and track meaningful life goals</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/total-life-screenshot-5.svg" alt="Reports" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Weekly Reports</h5>
+                                    <p class="text-muted">Get insights and suggestions for improvement</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/total-life-screenshot-6.svg" alt="Calendar View" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Calendar View</h5>
+                                    <p class="text-muted">Plan and track your life events and tasks</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#totalLifeCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#totalLifeCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center mb-5">Built for Privacy & Performance</h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-shield-check text-primary me-2"></i>Data Security</h5>
+                            <p>All data is encrypted and stored locally on your device. Optional iCloud sync keeps your data synced across devices while maintaining privacy.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-download text-primary me-2"></i>Data Export</h5>
+                            <p>Export your data in multiple formats (CSV, JSON, PDF reports) to ensure you always own and control your personal information.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-speedometer2 text-primary me-2"></i>Fast Performance</h5>
+                            <p>Optimized database queries and efficient data structures ensure smooth performance even with years of tracking data.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-phone text-primary me-2"></i>Native iOS Features</h5>
+                            <p>Deep integration with iOS including Shortcuts, Widgets, Siri integration, and seamless HealthKit synchronization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Reviews -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Life-Changing Results</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"This app helped me identify patterns I never noticed before. I discovered that my productivity peaks after morning workouts - game changer for my routine!"</p>
+                            <footer class="blockquote-footer">Rachel M.</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"The correlation analysis is incredible. It showed me how my sleep quality directly impacts my mood and decision-making. Now I prioritize sleep and feel so much better."</p>
+                            <footer class="blockquote-footer">Mark T.</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Finally, an app that tracks everything I want without being overwhelming. The insights help me make better choices every day. Couldn't live without it now!"</p>
+                            <footer class="blockquote-footer">Sophie L.</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="py-5 bg-gradient text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Start Your Data-Driven Life Journey</h2>
+                    <p class="lead mb-4">Discover insights about yourself that will help you live your best life. Track, analyze, and optimize with Total Life Tracker.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="https://apps.apple.com" class="btn btn-light btn-lg" target="_blank">
+                            <i class="bi bi-apple me-2"></i>Get Started Today
+                        </a>
+                        <a href="../support/total-life-tracker-support.html" class="btn btn-outline-light btn-lg">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2026 John Cummings. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="../support/total-life-tracker-support.html" class="text-white me-3">Support</a>
+                    <a href="../privacy/total-life-tracker-privacy.html" class="text-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

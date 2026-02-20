@@ -1,0 +1,17 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="20" y="50" width="260" height="40" rx="20" fill="#ff6b6b"/>
+  <text x="150" y="75" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Achievements</text>
+  <circle cx="80" cy="150" r="30" fill="#ffd700"/>
+  <text x="80" y="155" font-family="Arial" font-size="20" text-anchor="middle">🏆</text>
+  <text x="150" y="145" font-family="Arial" font-size="12">Kindness Champion</text>
+  <text x="150" y="160" font-family="Arial" font-size="10">100 acts of kindness</text>
+  <circle cx="80" cy="220" r="30" fill="#c0c0c0"/>
+  <text x="80" y="225" font-family="Arial" font-size="20" text-anchor="middle">🥈</text>
+  <text x="150" y="215" font-family="Arial" font-size="12">Community Builder</text>
+  <text x="150" y="230" font-family="Arial" font-size="10">Invited 10 friends</text>
+  <circle cx="80" cy="290" r="30" fill="#cd7f32"/>
+  <text x="80" y="295" font-family="Arial" font-size="20" text-anchor="middle">🥉</text>
+  <text x="150" y="285" font-family="Arial" font-size="12">Consistency Badge</text>
+  <text x="150" y="300" font-family="Arial" font-size="10">7-day streak</text>
+</svg>

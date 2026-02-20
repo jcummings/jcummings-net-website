@@ -1,0 +1,15 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#38ef7d;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="600" rx="12" fill="url(#heroGradient3)"/>
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Total Life Tracker</text>
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">Analytics Dashboard</text>
+  <rect x="100" y="350" width="300" height="200" rx="8" fill="white" opacity="0.9"/>
+  <circle cx="200" cy="450" r="30" fill="#11998e" opacity="0.7"/>
+  <rect x="260" y="380" width="120" height="80" rx="4" fill="#11998e" opacity="0.7"/>
+  <line x1="120" y1="520" x2="380" y2="470" stroke="#11998e" stroke-width="3"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="20" y="50" width="260" height="40" rx="20" fill="#ff6b6b"/>
+  <text x="150" y="75" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Impact Dashboard</text>
+  <circle cx="150" cy="200" r="80" fill="#28a745" opacity="0.8"/>
+  <text x="150" y="200" font-family="Arial" font-size="24" fill="white" text-anchor="middle">127</text>
+  <text x="150" y="220" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Acts of Kindness</text>
+  <rect x="40" y="320" width="220" height="30" rx="15" fill="#17a2b8"/>
+  <text x="150" y="340" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Current Streak: 15 days</text>
+  <rect x="40" y="380" width="220" height="80" rx="10" fill="white" stroke="#e9ecef"/>
+  <text x="150" y="405" font-family="Arial" font-size="12" text-anchor="middle">Community Impact</text>
+  <text x="150" y="430" font-family="Arial" font-size="18" fill="#28a745" text-anchor="middle">2,847</text>
+  <text x="150" y="450" font-family="Arial" font-size="10" text-anchor="middle">Total Community Acts</text>
+</svg>

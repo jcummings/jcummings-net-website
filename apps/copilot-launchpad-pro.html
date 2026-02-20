@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copilot Launchpad Pro - iOS App by John Cummings</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../index.html">John Cummings</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Software
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../software.html">All Projects</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="kindness-project.html">The Kindness Project</a></li>
+                            <li><a class="dropdown-item" href="freshlook-ai.html">FreshLook AI</a></li>
+                            <li><a class="dropdown-item" href="total-life-tracker.html">Total Life Tracker</a></li>
+                            <li><a class="dropdown-item active" href="copilot-launchpad-pro.html">Copilot Launchpad Pro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- App Hero Section -->
+    <section class="app-hero text-white py-5 mt-4">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="../images/copilot-launchpad-pro-icon.svg" alt="Copilot Launchpad Pro" class="app-icon-large me-4">
+                        <div>
+                            <h1 class="display-4 fw-bold mb-2">Copilot Launchpad Pro</h1>
+                            <p class="lead mb-0">Your intelligent productivity command center</p>
+                        </div>
+                    </div>
+                    <p class="mb-4">Revolutionize your workflow with advanced automation, intelligent task management, and seamless integration with your favorite productivity tools. Built for professionals who demand maximum efficiency.</p>
+                    <div class="d-flex gap-3 mb-4">
+                        <a href="https://apps.apple.com" class="btn btn-light btn-lg" target="_blank">
+                            <i class="bi bi-apple me-2"></i>Download on App Store
+                        </a>
+                        <a href="../support/copilot-launchpad-pro-support.html" class="btn btn-outline-light">Support</a>
+                        <a href="../privacy/copilot-launchpad-pro-privacy.html" class="btn btn-outline-light">Privacy Policy</a>
+                    </div>
+                    <div class="d-flex gap-4 text-center">
+                        <div>
+                            <div class="h4 fw-bold">4.9★</div>
+                            <small>App Store Rating</small>
+                        </div>
+                        <div>
+                            <div class="h4 fw-bold">25+</div>
+                            <small>Integrations</small>
+                        </div>
+                        <div>
+                            <div class="h4 fw-bold">8K+</div>
+                            <small>Power Users</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="../images/copilot-launchpad-pro-hero.svg" alt="Copilot Launchpad Pro Screenshots" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Advanced Productivity Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-robot"></i>
+                    </div>
+                    <h4>AI Task Assistant</h4>
+                    <p>Intelligent task prioritization, smart scheduling, and context-aware recommendations to optimize your productivity workflow.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-gear-wide"></i>
+                    </div>
+                    <h4>Workflow Automation</h4>
+                    <p>Create complex multi-step automations with conditional logic, API integrations, and trigger-based actions.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-diagram-3"></i>
+                    </div>
+                    <h4>Service Integration</h4>
+                    <p>Connect with 25+ productivity services including Slack, Notion, Todoist, Calendar apps, and more via powerful APIs.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-command"></i>
+                    </div>
+                    <h4>Quick Commands</h4>
+                    <p>Launch actions instantly with customizable shortcuts, voice commands, and gesture-based triggers for maximum speed.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-graph-up"></i>
+                    </div>
+                    <h4>Analytics Dashboard</h4>
+                    <p>Track productivity metrics, analyze work patterns, and get insights to continuously improve your efficiency.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h4>Team Collaboration</h4>
+                    <p>Share workflows, collaborate on automations, and coordinate team productivity with advanced sharing features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrations Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Powerful Integrations</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-calendar3 text-primary me-2"></i>Calendar & Scheduling</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Apple Calendar & Google Calendar</li>
+                                <li>• Calendly & Acuity Scheduling</li>
+                                <li>• Microsoft Outlook</li>
+                                <li>• Smart meeting prep automation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-check2-square text-primary me-2"></i>Task Management</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Todoist & Things 3</li>
+                                <li>• Asana & Monday.com</li>
+                                <li>• Trello & ClickUp</li>
+                                <li>• Jira & Linear</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-chat-dots text-primary me-2"></i>Communication</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Slack & Microsoft Teams</li>
+                                <li>• Discord & Zoom</li>
+                                <li>• Email automation (Gmail, Outlook)</li>
+                                <li>• SMS & push notifications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-journal-text text-primary me-2"></i>Note Taking & Docs</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• Notion & Obsidian</li>
+                                <li>• Evernote & OneNote</li>
+                                <li>• Google Docs & Sheets</li>
+                                <li>• Bear & Apple Notes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-cloud text-primary me-2"></i>Cloud Storage</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• iCloud & Google Drive</li>
+                                <li>• Dropbox & OneDrive</li>
+                                <li>• Box & AWS S3</li>
+                                <li>• Automated file organization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-graph-up text-primary me-2"></i>Analytics & CRM</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li>• HubSpot & Salesforce</li>
+                                <li>• Google Analytics</li>
+                                <li>• Stripe & PayPal</li>
+                                <li>• Custom webhook support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Automation Examples -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Real-World Automation Examples</h2>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <h3>Meeting Preparation Workflow</h3>
+                    <p class="text-muted mb-3">Automatically triggered 15 minutes before any meeting</p>
+                    <ol class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-1-circle-fill text-primary me-2"></i>Fetch meeting agenda from calendar</li>
+                        <li class="mb-2"><i class="bi bi-2-circle-fill text-primary me-2"></i>Create outline in your preferred notes app</li>
+                        <li class="mb-2"><i class="bi bi-3-circle-fill text-primary me-2"></i>Gather relevant documents from cloud storage</li>
+                        <li class="mb-2"><i class="bi bi-4-circle-fill text-primary me-2"></i>Send reminder notification with prep checklist</li>
+                        <li class="mb-2"><i class="bi bi-5-circle-fill text-primary me-2"></i>Launch meeting app and enable Do Not Disturb</li>
+                    </ol>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="../images/automation-meeting.svg" alt="Meeting Automation" class="img-fluid rounded shadow">
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <h3>Project Completion Workflow</h3>
+                    <p class="text-muted mb-3">Triggered when a project reaches 100% completion</p>
+                    <ol class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-1-circle-fill text-primary me-2"></i>Archive project files to designated folder</li>
+                        <li class="mb-2"><i class="bi bi-2-circle-fill text-primary me-2"></i>Generate project summary report</li>
+                        <li class="mb-2"><i class="bi bi-3-circle-fill text-primary me-2"></i>Send completion notification to stakeholders</li>
+                        <li class="mb-2"><i class="bi bi-4-circle-fill text-primary me-2"></i>Update CRM with project outcomes</li>
+                        <li class="mb-2"><i class="bi bi-5-circle-fill text-primary me-2"></i>Schedule follow-up tasks and reviews</li>
+                    </ol>
+                </div>
+                <div class="col-lg-6 text-center order-lg-1">
+                    <img src="../images/automation-project.svg" alt="Project Automation" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Carousel -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">App Screenshots</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="copilotCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#copilotCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#copilotCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#copilotCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#copilotCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#copilotCarousel" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#copilotCarousel" data-bs-slide-to="5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-center">
+                                    <img src="../images/copilot-screenshot-1.svg" alt="Dashboard" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Command Dashboard</h5>
+                                    <p class="text-muted">Monitor and control all your automations</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/copilot-screenshot-2.svg" alt="Automation Builder" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Automation Builder</h5>
+                                    <p class="text-muted">Create complex workflows with drag-and-drop</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/copilot-screenshot-3.svg" alt="Integrations" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Service Integrations</h5>
+                                    <p class="text-muted">Connect with your favorite apps and services</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/copilot-screenshot-4.svg" alt="Analytics" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Productivity Analytics</h5>
+                                    <p class="text-muted">Track performance and optimize workflows</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/copilot-screenshot-5.svg" alt="Templates" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Automation Templates</h5>
+                                    <p class="text-muted">Start with pre-built automation templates</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/copilot-screenshot-6.svg" alt="Monitoring" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>System Monitoring</h5>
+                                    <p class="text-muted">Real-time health monitoring and alerts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#copilotCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#copilotCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center mb-5">Enterprise-Grade Features</h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-shield-lock text-primary me-2"></i>Security & Privacy</h5>
+                            <p>End-to-end encryption for all automations and data. Enterprise-grade security with optional on-premise deployment for sensitive workflows.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-arrows-angle-expand text-primary me-2"></i>Scalable Architecture</h5>
+                            <p>Built to handle complex enterprise workflows with unlimited automation rules, advanced conditional logic, and high-throughput processing.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-code-slash text-primary me-2"></i>Custom Scripting</h5>
+                            <p>Advanced users can create custom scripts with JavaScript support for unlimited automation possibilities and complex business logic.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-people text-primary me-2"></i>Team Management</h5>
+                            <p>Role-based permissions, team workspaces, shared automation libraries, and collaborative workflow development tools.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Reviews -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Professionals Love Launchpad Pro</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"This app has revolutionized my workflow. I save 2-3 hours daily with automated meeting prep, project management, and client communication. Absolutely essential!"</p>
+                            <footer class="blockquote-footer">James C., Project Manager</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"The integration with our entire tech stack is seamless. Custom automations handle our complex business processes flawlessly. Best productivity investment we've made."</p>
+                            <footer class="blockquote-footer">Lisa K., Operations Director</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Security-first approach gives us confidence to automate sensitive workflows. The team collaboration features have transformed how we work together."</p>
+                            <footer class="blockquote-footer">Michael R., CTO</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Tiers -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Choose Your Plan</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <h5>Professional</h5>
+                            <div class="h2 text-primary">$9.99<small class="text-muted">/month</small></div>
+                            <ul class="list-unstyled mb-4">
+                                <li>✓ 15+ integrations</li>
+                                <li>✓ Unlimited automations</li>
+                                <li>✓ Basic analytics</li>
+                                <li>✓ Priority support</li>
+                            </ul>
+                            <a href="https://apps.apple.com" class="btn btn-primary">Start Free Trial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-primary shadow">
+                        <div class="card-header bg-primary text-white text-center">
+                            <h5 class="mb-0">Most Popular</h5>
+                        </div>
+                        <div class="card-body text-center p-4">
+                            <h5>Team</h5>
+                            <div class="h2 text-primary">$19.99<small class="text-muted">/month</small></div>
+                            <ul class="list-unstyled mb-4">
+                                <li>✓ All Professional features</li>
+                                <li>✓ Team collaboration</li>
+                                <li>✓ Advanced analytics</li>
+                                <li>✓ Custom scripting</li>
+                                <li>✓ Priority support</li>
+                            </ul>
+                            <a href="https://apps.apple.com" class="btn btn-primary">Start Free Trial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <h5>Enterprise</h5>
+                            <div class="h2 text-primary">Custom</div>
+                            <ul class="list-unstyled mb-4">
+                                <li>✓ All Team features</li>
+                                <li>✓ On-premise deployment</li>
+                                <li>✓ Custom integrations</li>
+                                <li>✓ Dedicated support</li>
+                                <li>✓ SLA guarantee</li>
+                            </ul>
+                            <a href="../contact.html" class="btn btn-outline-primary">Contact Sales</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="py-5 bg-gradient text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Supercharge Your Productivity Today</h2>
+                    <p class="lead mb-4">Join thousands of professionals who have transformed their workflows with intelligent automation and seamless integrations.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="https://apps.apple.com" class="btn btn-light btn-lg" target="_blank">
+                            <i class="bi bi-apple me-2"></i>Start Free Trial
+                        </a>
+                        <a href="../support/copilot-launchpad-pro-support.html" class="btn btn-outline-light btn-lg">Get Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2026 John Cummings. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="../support/copilot-launchpad-pro-support.html" class="text-white me-3">Support</a>
+                    <a href="../privacy/copilot-launchpad-pro-privacy.html" class="text-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

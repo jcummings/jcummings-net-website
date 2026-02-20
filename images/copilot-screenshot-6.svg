@@ -1,0 +1,33 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <rect x="20" y="50" width="260" height="40" rx="20" fill="#667eea"/>
+  <text x="150" y="75" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Monitoring</text>
+  <rect x="30" y="120" width="240" height="400" rx="10" fill="white" stroke="#e9ecef"/>
+  <text x="150" y="140" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">System Health</text>
+  <rect x="45" y="160" width="210" height="60" rx="8" fill="#e8f5e8" stroke="#c3e6cb"/>
+  <text x="150" y="180" font-family="Arial" font-size="14" font-weight="bold" fill="#28a745" text-anchor="middle">All Systems Operational</text>
+  <text x="150" y="200" font-family="Arial" font-size="12" text-anchor="middle">Uptime: 99.97%</text>
+  <text x="150" y="215" font-family="Arial" font-size="10" text-anchor="middle">Last 30 days</text>
+  <text x="150" y="250" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Active Monitors</text>
+  <rect x="45" y="270" width="210" height="25" rx="12" fill="#d4edda" stroke="#c3e6cb"/>
+  <circle cx="65" cy="282" r="5" fill="#28a745"/>
+  <text x="80" y="287" font-family="Arial" font-size="10">Email Service - Online</text>
+  <rect x="45" y="300" width="210" height="25" rx="12" fill="#d4edda" stroke="#c3e6cb"/>
+  <circle cx="65" cy="312" r="5" fill="#28a745"/>
+  <text x="80" y="317" font-family="Arial" font-size="10">Database - Healthy</text>
+  <rect x="45" y="330" width="210" height="25" rx="12" fill="#fff3cd" stroke="#ffeaa7"/>
+  <circle cx="65" cy="342" r="5" fill="#ffc107"/>
+  <text x="80" y="347" font-family="Arial" font-size="10">API Response - Slow</text>
+  <rect x="45" y="360" width="210" height="25" rx="12" fill="#d4edda" stroke="#c3e6cb"/>
+  <circle cx="65" cy="372" r="5" fill="#28a745"/>
+  <text x="80" y="377" font-family="Arial" font-size="10">Storage - 67% Used</text>
+  <text x="150" y="410" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Recent Alerts</text>
+  <rect x="45" y="425" width="210" height="20" rx="10" fill="#f8d7da" stroke="#f5c6cb"/>
+  <text x="60" y="438" font-family="Arial" font-size="9">High CPU usage detected - Auto-scaled</text>
+  <text x="230" y="438" font-family="Arial" font-size="8">2h ago</text>
+  <rect x="45" y="450" width="210" height="20" rx="10" fill="#fff3cd" stroke="#ffeaa7"/>
+  <text x="60" y="463" font-family="Arial" font-size="9">SSL certificate expires in 30 days</text>
+  <text x="230" y="463" font-family="Arial" font-size="8">1d ago</text>
+  <rect x="80" y="485" width="140" height="30" rx="15" fill="#667eea"/>
+  <text x="150" y="503" font-family="Arial" font-size="12" fill="white" text-anchor="middle">View Full Logs</text>
+</svg>

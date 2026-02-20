@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshLook AI - iOS App by John Cummings</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../index.html">John Cummings</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            Software
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../software.html">All Projects</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="kindness-project.html">The Kindness Project</a></li>
+                            <li><a class="dropdown-item active" href="freshlook-ai.html">FreshLook AI</a></li>
+                            <li><a class="dropdown-item" href="total-life-tracker.html">Total Life Tracker</a></li>
+                            <li><a class="dropdown-item" href="copilot-launchpad-pro.html">Copilot Launchpad Pro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- App Hero Section -->
+    <section class="app-hero text-white py-5 mt-4">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="../images/freshlook-ai-icon.svg" alt="FreshLook AI" class="app-icon-large me-4">
+                        <div>
+                            <h1 class="display-4 fw-bold mb-2">FreshLook AI</h1>
+                            <p class="lead mb-0">AI-powered photo enhancement made simple</p>
+                        </div>
+                    </div>
+                    <p class="mb-4">Transform your photos with cutting-edge artificial intelligence. From automatic enhancement to creative style transfers, FreshLook AI makes professional photo editing accessible to everyone, right on your iPhone.</p>
+                    <div class="d-flex gap-3 mb-4">
+                        <a href="https://apps.apple.com" class="btn btn-light btn-lg" target="_blank">
+                            <i class="bi bi-apple me-2"></i>Download on App Store
+                        </a>
+                        <a href="../support/freshlook-ai-support.html" class="btn btn-outline-light">Support</a>
+                        <a href="../privacy/freshlook-ai-privacy.html" class="btn btn-outline-light">Privacy Policy</a>
+                    </div>
+                    <div class="d-flex gap-4 text-center">
+                        <div>
+                            <div class="h4 fw-bold">4.7★</div>
+                            <small>App Store Rating</small>
+                        </div>
+                        <div>
+                            <div class="h4 fw-bold">100K+</div>
+                            <small>Photos Enhanced</small>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="h4 fw-bold">15+</div>
+                            <small>AI Models</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="../images/freshlook-ai-hero.svg" alt="FreshLook AI Screenshots" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Powerful AI Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-magic"></i>
+                    </div>
+                    <h4>Smart Enhancement</h4>
+                    <p>Automatically improve brightness, contrast, color balance, and sharpness using advanced machine learning algorithms trained on millions of photos.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-palette2"></i>
+                    </div>
+                    <h4>Style Transfer</h4>
+                    <p>Apply artistic styles to your photos with neural style transfer. Transform your pictures into paintings, sketches, or unique artistic interpretations.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-scissors"></i>
+                    </div>
+                    <h4>Background Removal</h4>
+                    <p>Precisely remove or replace backgrounds using advanced computer vision. Perfect for product photos, portraits, and creative compositions.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-eye"></i>
+                    </div>
+                    <h4>Object Detection</h4>
+                    <p>Identify and enhance specific objects in your photos. Automatically detect faces, pets, landmarks, and other subjects for targeted improvements.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-shield-lock"></i>
+                    </div>
+                    <h4>Privacy Focused</h4>
+                    <p>All AI processing happens on-device using Core ML. Your photos never leave your iPhone, ensuring complete privacy and security.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mx-auto mb-3">
+                        <i class="bi bi-lightning"></i>
+                    </div>
+                    <h4>Real-time Preview</h4>
+                    <p>See AI enhancements in real-time as you adjust settings. Interactive sliders let you fine-tune AI effects to match your creative vision.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Models Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Advanced AI Models</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-cpu text-primary me-2"></i>Portrait Enhancement</h5>
+                            <p>Specialized neural network trained specifically for portrait photography. Enhances skin tones, reduces noise, and optimizes facial features while maintaining natural appearance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-image text-primary me-2"></i>Landscape Optimizer</h5>
+                            <p>Advanced model for nature and landscape photography. Enhances sky details, improves color saturation, and brings out textures in natural scenes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-moon text-primary me-2"></i>Low-Light Enhancer</h5>
+                            <p>Specialized for challenging lighting conditions. Reduces noise, brightens shadows, and recovers details in low-light and night photography.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="bi bi-camera text-primary me-2"></i>Food Photography</h5>
+                            <p>Optimized for food and product photography. Enhances colors, improves texture definition, and makes food photos more appetizing and vibrant.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Carousel -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">See the Magic in Action</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="freshlookCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#freshlookCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#freshlookCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#freshlookCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#freshlookCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#freshlookCarousel" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#freshlookCarousel" data-bs-slide-to="5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-center">
+                                    <img src="../images/freshlook-screenshot-1.svg" alt="Main Enhancement Screen" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Smart Enhancement</h5>
+                                    <p class="text-muted">Choose photos from gallery or camera to enhance</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/freshlook-screenshot-2.svg" alt="Style Transfer" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Artistic Style Transfer</h5>
+                                    <p class="text-muted">Apply creative styles with AI enhancement</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/freshlook-screenshot-3.svg" alt="Background Removal" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Background Removal</h5>
+                                    <p class="text-muted">Remove backgrounds with precision AI technology</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/freshlook-screenshot-4.svg" alt="Before After View" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Before/After Comparison</h5>
+                                    <p class="text-muted">See the transformation side by side</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/freshlook-screenshot-5.svg" alt="Batch Processing" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Batch Processing</h5>
+                                    <p class="text-muted">Process multiple photos simultaneously</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/freshlook-screenshot-6.svg" alt="Export & Share" class="screenshot img-fluid mb-3" style="max-height: 500px;">
+                                    <h5>Export & Share</h5>
+                                    <p class="text-muted">Save and share your enhanced photos easily</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#freshlookCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#freshlookCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Details -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-center mb-5">Technical Innovation</h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-chip text-primary me-2"></i>Core ML Optimization</h5>
+                            <p>Built with Apple's Core ML framework for maximum performance and efficiency. All AI models are optimized for iPhone's Neural Engine.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-phone text-primary me-2"></i>Native Performance</h5>
+                            <p>Developed in Swift with SwiftUI for the best possible iOS experience. Smooth animations and responsive interface even during AI processing.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-cloud-slash text-primary me-2"></i>Offline Processing</h5>
+                            <p>No internet connection required. All AI enhancement happens locally on your device, ensuring fast processing and complete privacy.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5><i class="bi bi-battery text-primary me-2"></i>Battery Efficient</h5>
+                            <p>Optimized algorithms and efficient use of hardware acceleration minimize battery usage while delivering professional results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Reviews -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Photographers Are Saying</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"The AI enhancement quality is incredible! It's like having a professional photo editor in my pocket. The results rival expensive desktop software."</p>
+                            <footer class="blockquote-footer">Alex P., Professional Photographer</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Privacy-first approach is exactly what I was looking for. Powerful AI processing without sending my photos to the cloud. Fast and reliable!"</p>
+                            <footer class="blockquote-footer">Maria S., Content Creator</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"The background removal feature is incredibly accurate. Saves me hours of manual editing work. This app is a game-changer for my business."</p>
+                            <footer class="blockquote-footer">David K., E-commerce Owner</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="py-5 bg-gradient text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Transform Your Photos with AI</h2>
+                    <p class="lead mb-4">Experience the power of professional photo editing with cutting-edge artificial intelligence, all in your pocket.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="https://apps.apple.com" class="btn btn-light btn-lg" target="_blank">
+                            <i class="bi bi-apple me-2"></i>Download Now
+                        </a>
+                        <a href="../support/freshlook-ai-support.html" class="btn btn-outline-light btn-lg">Get Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2026 John Cummings. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="../support/freshlook-ai-support.html" class="text-white me-3">Support</a>
+                    <a href="../privacy/freshlook-ai-privacy.html" class="text-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
